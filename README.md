@@ -14,3 +14,6 @@ I have evaluated the model using mean squared error, mean absolute error and r2 
 
 c. handling missing data in hr dataset
 In the dataset of hr.csv, I have done necessary feature selection, data cleaning and applied and compared two Ml algortihms Logistic Regression and SVC and evaluated using f1 score, recall score, precision score and confusion matrix. In this I have handled the missing data by deletio, mean/median replacement. I concluded SVC to be the best model among two by the evaluation factors.
+
+d. water potability test
+In this project, I implemented SVC and Gaussian Naive Bayes algortihms to analyze water potability. I have done necessary steps for feature selection but the features had less correlation with each other so I used them all and performed scaling by StandardScaler as preprocessing. The model were evaluated using f1 score, precision, recall and accuracy score. In conclusion, SVC was better than Gaussian Naive Bayes for this dataset. 
